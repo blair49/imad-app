@@ -21,9 +21,6 @@ app.get('/article1', function (req, res) {
   res.send('Article 1 requested and will be served here');
 });
 
-app.get('/*', function (req, res) {
-  res.send('Sorry we didnt find the requested file');
-});
 
 // Do not change port, otherwise your app won't run on IMAD servers
 // Use 8080 only for local development if you already have apache running on 80
